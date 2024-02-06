@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Mutasi Data</name>
+   <tag></tag>
+   <elementGuidId>335c16dd-09c9-445a-ae50-86ea4d9777f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='side-menu']/li/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#side-menu > li > a > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3db05c36-cd1b-4c24-aa40-05a0461b065d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Mutasi Data</value>
+      <webElementGuid>8867f391-4b2f-480f-898c-e8060b718623</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;side-menu&quot;)/li[1]/a[1]/span[1]</value>
+      <webElementGuid>c50ce983-5bc3-480a-afe5-5b9db2107f24</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='side-menu']/li/a/span</value>
+      <webElementGuid>a1f23018-e029-4a99-963f-8ab336d0e06f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/ul/li/a/span</value>
+      <webElementGuid>c37addb0-4836-4b0f-9325-ec04300784a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Mutasi Data' or . = ' Mutasi Data')]</value>
+      <webElementGuid>067e7cfb-4d23-41ba-9d80-1eae57399944</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
