@@ -38,9 +38,9 @@ WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_BPJS
 
 WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/span_Select perusahaan'))
 
-WebUI.setText(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/pencarianPerusahaan'), 'Tripanca')
+WebUI.setText(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/pencarianPerusahaan'), 'Adi')
 
-WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/Tripanca'))
+WebUI.enhancedClick(findTestObject('Tambah TK belum ada BPJS/HitungIuran/pilihPerusahaanke2'))
 
 WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/button_Ok'))
 
@@ -50,7 +50,9 @@ WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP
 
 WebUI.enhancedClick(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/button_OK'))
 
-WebUI.enhancedClick(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/buttonEdit'))
+WebUI.scrollToPosition(0, 700)
+
+WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/buttonEdit'))
 
 WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/klikOkPemberitahuan'))
 
@@ -69,7 +71,7 @@ WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP
 WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/button_Pilih'))
 
 WebUI.setText(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/input_i_nik'), 
-    '1111111111222222')
+    '1111111111222238')
 
 WebUI.setText(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/input_i_nama_lengkap'), 
     'ALI BIN')
@@ -137,75 +139,53 @@ WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP
 
 WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/td_3'))
 
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/td_20'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/td_29'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/td_2'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/th__1'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/th__1'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/td_29'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/td_29'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/th__1'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/th__1'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/td_29'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/td_29'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/th__1'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/td_20'))
-
 WebUI.setText(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/noPegawai'), '0909992323', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/input_upah'), 
-    '1000000')
+    '11000000')
 
 WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/input_alamat'), 
     'KELAPA GADINg')
 
-WebUI.delay(3)
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/input_kode_pos'), 
+    '12312')
 
 WebUI.enhancedClick(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/selectKab'))
 
-WebUI.delay(5)
+WebUI.delay(6)
 
 WebUI.setText(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/searchKab'), 'Aceh Jaya')
 
 WebUI.enhancedClick(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/acehJaya'))
 
-WebUI.setText(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/input_kode_pos'), 
-    '12312')
-
 WebUI.setText(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/input_no_telp'), 
     '08789222222222222222')
 
 WebUI.setText(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/input_no_handphone'), 
-    '222222222')
+    '083222222222')
 
 WebUI.setText(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/input_no_telp'), 
     '08789222222')
 
+WebUI.setText(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/npwp'), '1222222231111111')
+
+WebUI.setText(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/email'), 'test@yopmail.com')
+
+WebUI.scrollToPosition(0, 900)
+
 WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/buttonLanjut'))
+
+WebUI.scrollToPosition(0, 950)
 
 WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/button_Simpan'))
 
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/button_OK'))
+WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/buttonOkPemberitahuanSuksesDaftar'))
 
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/button_Tidak'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/button_OK'))
-
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/td_ALI BIN'))
+WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/buttonOkPemberitahuanSuksesDaftar'))
 

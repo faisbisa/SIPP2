@@ -6,12 +6,16 @@
    <elementGuidId>0ee9a95b-ffa5-4695-90aa-dde399acf72f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='select2-t8da-container']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#select2-t8da-container</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'select2-t8da-container' and @title = 'Select perusahaan' and (text() = 'Select perusahaan' or . = 'Select perusahaan')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;select2-mhym-container&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>520cb941-dffb-4889-a77a-cfa9c01483e5</webElementGuid>
+      <webElementGuid>dfe0c028-2850-4c0d-888e-51383017a324</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select2-selection__rendered</value>
-      <webElementGuid>7397963e-4314-4710-9c1f-ac0c85ec5531</webElementGuid>
+      <webElementGuid>269f02de-62f5-49a7-9464-ae0399f5e8b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>select2-t8da-container</value>
-      <webElementGuid>25d717ae-44b6-4c81-b8a6-696546bf5aad</webElementGuid>
+      <webElementGuid>84cdae73-de39-4925-bc74-ae885955e2ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Select perusahaan</value>
-      <webElementGuid>5c577243-88d1-4b79-a78d-caed5280b99a</webElementGuid>
+      <webElementGuid>ef6adcf0-4747-48a1-be95-6011aa600ad8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select perusahaan</value>
-      <webElementGuid>3f717c62-b159-4dfd-8288-3b9b982dcab4</webElementGuid>
+      <webElementGuid>49c0adc3-636c-4377-ba96-04b62e91500e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,30 +66,30 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select2-t8da-container&quot;)</value>
-      <webElementGuid>3253d33c-c04b-4aa0-aaef-21ee2be63312</webElementGuid>
+      <webElementGuid>5343369f-a388-4644-bb03-dbbc78255d4a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//span[@id='select2-t8da-container']</value>
-      <webElementGuid>ce258d58-7b96-4738-bbef-973ad834496e</webElementGuid>
+      <value></value>
+      <webElementGuid>b8e0e7a0-f2db-4742-aae3-7470d73e42a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/span/span/span</value>
-      <webElementGuid>09481505-6887-4355-98df-a4e7fc6dbb7d</webElementGuid>
+      <value></value>
+      <webElementGuid>8d1394fd-222a-4786-8dd2-cecb124ab17d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[@id = 'select2-t8da-container' and @title = 'Select perusahaan' and (text() = 'Select perusahaan' or . = 'Select perusahaan')]</value>
-      <webElementGuid>1ee815ed-8ad8-4b1d-972d-34aa2e96bacd</webElementGuid>
+      <value></value>
+      <webElementGuid>bc937d76-a95a-4304-be55-4e213b2762f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>buttonEdit</name>
+   <name>pesertaAktif</name>
    <tag></tag>
-   <elementGuidId>853ca8e6-d4b1-4ff6-a6ed-c09fa6c819b5</elementGuidId>
+   <elementGuidId>a5091dc5-5bc4-41a7-911e-206a2705e2e9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@class=&quot;btn btn-default btn-xs&quot;])[1]</value>
+         <value>(//*[@class=&quot;text&quot;])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

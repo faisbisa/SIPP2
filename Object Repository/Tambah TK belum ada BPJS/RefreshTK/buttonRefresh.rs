@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>buttonEdit</name>
+   <name>buttonRefresh</name>
    <tag></tag>
-   <elementGuidId>853ca8e6-d4b1-4ff6-a6ed-c09fa6c819b5</elementGuidId>
+   <elementGuidId>d50a8376-dbd9-4a94-b8b4-6855fa9e747a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@class=&quot;btn btn-default btn-xs&quot;])[1]</value>
+         <value>//*[@id=&quot;btn_refresh_tk&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

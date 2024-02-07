@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>buttonEdit</name>
+   <name>npwp</name>
    <tag></tag>
-   <elementGuidId>853ca8e6-d4b1-4ff6-a6ed-c09fa6c819b5</elementGuidId>
+   <elementGuidId>8d81931b-7030-4fb2-9897-b9a6b3034806</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@class=&quot;btn btn-default btn-xs&quot;])[1]</value>
+         <value>//*[@id=&quot;npwp&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

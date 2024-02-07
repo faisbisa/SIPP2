@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Tambah TK belum ada no BPJS</name>
+   <name>Tambah TK - Tidak Input Tanggal Lahir</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c9e68c9e-58f9-43f3-90f8-988dbf5ccc70</testCaseGuid>
+   <testCaseGuid>6a815546-800c-42f5-8354-471dd35e2995</testCaseGuid>
 </TestCaseEntity>

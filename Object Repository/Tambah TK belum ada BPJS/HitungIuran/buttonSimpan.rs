@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>buttonEdit</name>
+   <name>buttonSimpan</name>
    <tag></tag>
-   <elementGuidId>853ca8e6-d4b1-4ff6-a6ed-c09fa6c819b5</elementGuidId>
+   <elementGuidId>e4d378c8-434c-49be-bf11-6050db835cba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@class=&quot;btn btn-default btn-xs&quot;])[1]</value>
+         <value>(//*[@type=&quot;button&quot;])[22]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
