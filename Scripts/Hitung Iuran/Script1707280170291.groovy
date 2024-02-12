@@ -48,9 +48,11 @@ WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP
 
 WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/button_Tambah Periode Pelaporan'))
 
-WebUI.enhancedClick(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/button_OK'))
+WebUI.enhancedClick(findTestObject('Tambah TK belum ada BPJS/HitungIuran/buttonOKWarning'))
 
-WebUI.enhancedClick(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/buttonEdit'))
+WebUI.delay(25)
+
+WebUI.enhancedClick(findTestObject('Tambah TK belum ada BPJS/HitungIuran/buttonEdit'))
 
 WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/klikOkPemberitahuan'))
 
@@ -66,9 +68,9 @@ WebUI.doubleClick(findTestObject('Tambah TK belum ada BPJS/HitungIuran/pesertaAk
 
 WebUI.click(findTestObject('Tambah TK belum ada BPJS/HitungIuran/buttonAction'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Tambah TK belum ada BPJS/HitungIuran/buttonEdit'))
+WebUI.click(findTestObject('Tambah TK belum ada BPJS/HitungIuran/editUpahIuran'))
 
-WebUI.setText(findTestObject('Tambah TK belum ada BPJS/HitungIuran/inputUpah'), '10980000')
+WebUI.setText(findTestObject('Tambah TK belum ada BPJS/HitungIuran/inputUpah'), '10970000')
 
 WebUI.click(findTestObject('Tambah TK belum ada BPJS/HitungIuran/buttonSimpan'))
 

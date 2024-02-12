@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@class=&quot;btn btn-default btn-xs&quot;])[1]</value>
+         <value>(//*[@href=&quot;#&quot;])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

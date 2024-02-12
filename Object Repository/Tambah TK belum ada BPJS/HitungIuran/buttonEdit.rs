@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@href=&quot;#&quot;])[5]</value>
+         <value>(//*[@href=&quot;#&quot;])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

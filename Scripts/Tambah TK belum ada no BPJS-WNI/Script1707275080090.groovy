@@ -48,9 +48,11 @@ WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP
 
 WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/button_Tambah Periode Pelaporan'))
 
+WebUI.delay(15)
+
 WebUI.enhancedClick(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/button_OK'))
 
-WebUI.scrollToPosition(0, 700)
+WebUI.delay(15)
 
 WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/buttonEdit'))
 
@@ -109,16 +111,22 @@ WebUI.setText(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SI
 WebUI.setText(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/input_ibu_kandung'), 
     'AISHAH')
 
+WebUI.delay(5)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/select_-Pilih-                             _d74a24'), 
     'LAKI-LAKI', true)
+
+WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/select_-Pilih-                             _cb70da'), 
     'B', true)
 
+WebUI.delay(3)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/select_-Pilih-                             _d2e932'), 
     'KAWIN', true)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/klikLokasiPekerjaan'), FailureHandling.STOP_ON_FAILURE)
 
@@ -135,7 +143,15 @@ WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP
 
 WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/td_3'))
 
-WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/input_tgl_akhir_kontrak'))
+WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/inputTanggalAkhirKotak'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/next1'))
+
+WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/next1'))
+
+WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/next1'))
+
+WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/next1'))
 
 WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP - Sistem Informasi Pelaporan Peserta/td_3'))
 
@@ -188,4 +204,6 @@ WebUI.click(findTestObject('Object Repository/Tambah TK belum ada BPJS/Page_SIPP
 WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/buttonOkPemberitahuanSuksesDaftar'))
 
 WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/buttonOkPemberitahuanSuksesDaftar'))
+
+WebUI.click(findTestObject('Tambah TK belum ada BPJS/Page_BPJS Ketenagakerjaan/next1'))
 
